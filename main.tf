@@ -18,6 +18,6 @@ resource "random_pet" "rg-name" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-mysystem-test"
+  name     = "rg-davesapps-test"
   location = var.resource_group_location
 }
